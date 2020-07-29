@@ -1,11 +1,11 @@
 var plugins = [{
-      plugin: require('/Users/AnupamaDas/Desktop/gatsby-starter-resume/node_modules/gatsby-plugin-react-helmet/gatsby-ssr'),
+      plugin: require('/Users/AnupamaDas/Desktop/anupamadas.github.io/node_modules/gatsby-plugin-react-helmet/gatsby-ssr'),
       options: {"plugins":[]},
     },{
-      plugin: require('/Users/AnupamaDas/Desktop/gatsby-starter-resume/node_modules/gatsby-plugin-manifest/gatsby-ssr'),
-      options: {"plugins":[],"name":"Resume","short_name":"Landing","start_url":"/gatsby-starter-resume/","background_color":"#C71585","theme_color":"#C71585","display":"standalone","icon":"src/assets/img/website-icon.png","cache_busting_mode":"query","include_favicon":true,"legacy":true,"theme_color_in_head":true,"cacheDigest":"34ded252fc8e8dadced26fc66fa517fe"},
+      plugin: require('/Users/AnupamaDas/Desktop/anupamadas.github.io/node_modules/gatsby-plugin-manifest/gatsby-ssr'),
+      options: {"plugins":[],"name":"Resume","short_name":"Landing","start_url":"/resume/","background_color":"#C71585","theme_color":"#C71585","display":"standalone","icon":"src/assets/img/website-icon.png","cache_busting_mode":"query","include_favicon":true,"legacy":true,"theme_color_in_head":true,"cacheDigest":"34ded252fc8e8dadced26fc66fa517fe"},
     },{
-      plugin: require('/Users/AnupamaDas/Desktop/gatsby-starter-resume/node_modules/gatsby-plugin-offline/gatsby-ssr'),
+      plugin: require('/Users/AnupamaDas/Desktop/anupamadas.github.io/node_modules/gatsby-plugin-offline/gatsby-ssr'),
       options: {"plugins":[]},
     }]
 // During bootstrap, we write requires at top of this file which looks like:
