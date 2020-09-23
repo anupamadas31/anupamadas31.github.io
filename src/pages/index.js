@@ -23,8 +23,7 @@ const IndexPage = () => (
             <a href={`mailto:${config.email}`}>{config.email}</a>
           </div>
           <p className="lead mb-5">
-            I am a passionate learner by heart. I specialize in machine learning and computer vision. I have experience in building
-            end-to-end machine learning based quality solutions to achieve business goals. 
+            I am a passionate learner by heart. I specialize in machine learning and computer vision. 
           
           </p>
           <div className="social-icons">
